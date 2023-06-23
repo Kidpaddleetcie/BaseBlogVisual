@@ -1,0 +1,139 @@
+body{
+    background-color: #00062B;
+    background-image: none;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-size: 12px;
+    font-family: Arial Black;
+}
+
+h4{
+    text-align: center;
+    color: white;
+}
+
+main{
+    text-align: left;
+    clear: both;
+    margin: 5px 0;
+}
+
+aside{
+    width: 171px;
+    position: relative;
+    color: #0094FF;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: #2634FF;
+    background-color: #15202B;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 169px;
+    border: 1px solid;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.barre_gauche{
+    float: left;
+    clear: left;
+    margin: 0 8px 0 0;
+    text-align: center;
+    .Titre_de_Blog{
+    a{
+        color:#0094FF;
+    }}
+    .Profil{
+        img{
+            width:100%;
+        }
+    }
+    .Description{
+
+        padding:5px;
+    }
+    .LesLiens{
+        a{
+            color:white;
+            display: block;
+            border-top: 1px;
+            border-style: dotted;
+            border-color: #2634FF;
+            text-decoration: none;
+            padding:2px;
+        }
+    }
+}
+
+.barre_droite{
+    float: right;
+    clear: right;
+    .Infos{
+        padding:5px;
+        text-align: center;
+    }
+    .Tags{
+        text-align: center;
+        font-size: 90%;
+        padding: 0.3em;
+        a{
+            color:white;
+            padding:10px;
+            margin:10px;
+            &:nth-child(2n+1){
+                background-color: #ffffff17;
+                display: block;
+            }  
+        }
+    }
+    .Sources{
+        img{
+            width: 100%;
+            &:hover{
+                filter: opacity(0.5);
+            }
+        }
+    }
+}
+
+
+.Blog_centre{
+    margin:5px;
+    article{
+        color: #0A0A0A;
+        background-color: #FFF;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        border-color: #15202B;
+        border-style: solid;
+        font-size: 14px;
+        font-family: Lucida Sans Unicode;
+        h1{    margin: 0;
+            padding: 0;
+            display: block;
+            background-color: #131928;
+            background-image: none;
+            background-repeat: no-repeat;
+            border-color: #000;
+            border-style: none;
+            font-size: 16px;
+            font-family: Allerta Stencil;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+            a{
+                color: #A5D3FF;
+                text-decoration:none;
+            }
+        }
+        div{
+            margin: 0 0 5px;
+        }
+    }
+
+
+}
